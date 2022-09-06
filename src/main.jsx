@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 //import {App} from './FirstApp'
-import {firstApp} from './Componente'
+import {FirstApp} from './Componente'
 import './Styles.css'
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,7 +13,7 @@ import './Styles.css'
 ReactDOM.createRoot (document.getElementById('root')).render(
 
     <React.StrictMode>
-        <firstApp title='hola amigo'/>
+        <FirstApp title='hola amigo' />
     </React.StrictMode>
 
 )
